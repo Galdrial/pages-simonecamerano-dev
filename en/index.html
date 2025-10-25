@@ -1,9 +1,10 @@
-<!-- 
+<!--
   ==========================================
-  PORTFOLIO PERSONALE - Homepage - EN
+  PERSONAL PORTFOLIO - Homepage (EN)
   ==========================================
-  Progetto Start2Impact
-  Tecnologie: HTML5, SCSS/Bootstrap 5, CSS-only interactions
+  Start2Impact Project
+  Technologies: HTML5, SCSS/Bootstrap 5, CSS-only interactions
+  This page shows the main presentation and links to all portfolio sections.
 -->
 <!DOCTYPE html>
 <html lang="en">
@@ -18,14 +19,15 @@
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://galdrial.github.io/pages-simonecamerano-dev/en/" />
   <meta property="og:image:width" content="1200" />
-  <meta property="og:image" content="https://galdrial.github.io/pages-simonecamerano-dev/assets/img/og-image-home-en.jpg" />
+  <meta property="og:image"
+    content="https://galdrial.github.io/pages-simonecamerano-dev/assets/img/og-image-home-en.jpg" />
   <title>Home | Simone Camerano</title>
 
   <link rel="alternate" href="https://galdrial.github.io/pages-simonecamerano-dev/index.html" hreflang="it" />
   <link rel="alternate" href="https://galdrial.github.io/pages-simonecamerano-dev/en/index.html" hreflang="en" />
   <link rel="alternate" href="https://galdrial.github.io/pages-simonecamerano-dev/index.html" hreflang="x-default" />
 
-  <!-- Stylesheet compilato (include Bootstrap customizzato + stili custom) -->
+  <!-- Main stylesheet: custom Bootstrap + custom styles -->
   <link rel="stylesheet" href="../assets/css/style.css">
 
   <!-- Google Fonts: Montserrat, Roboto, Google Sans Code -->
@@ -41,15 +43,16 @@
 </head>
 
 <body>
-  <!-- 
+  <!--
     ==========================================
     HEADER - Navigation (Sticky)
     ==========================================
+    Header section with navbar and logo
   -->
   <header class="sticky-top">
     <nav class="navbar navbar-expand-lg bg-light" role="navigation">
       <div class="container px-3">
-        <!-- Brand Logo -->
+  <!-- Brand Logo -->
         <a class="navbar-brand" href="./">
           <span class="m-0" style="font-size:1.25rem; font-weight:700; line-height:1.2; display:inline-block;">
             <span class="text-primary fw-bold">SIMONE</span><span class="fw-bold">CAMERANO</span><span id="dev"
@@ -70,8 +73,7 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link fw-medium fs-6 active" aria-current="page" href="./"
-                aria-label="Go to Home">Home</a>
+              <a class="nav-link fw-medium fs-6 active" aria-current="page" href="./" aria-label="Go to Home">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link fw-medium fs-6" href="./about_page/" aria-label="Go to About page">About</a>
@@ -103,7 +105,7 @@
   <main class="hero-main">
     <div class="container my-5">
       <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border-0 shadow-lg">
-  <div class="col-lg-7 p-3 p-lg-5 pt-lg-3 order-2 order-lg-1">
+        <div class="col-lg-7 p-3 p-lg-5 pt-lg-3 order-2 order-lg-1">
           <p class="lead">
             Hi, my name is
           </p>
@@ -125,14 +127,14 @@
             </a>
           </div>
         </div>
-  <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg order-1 order-lg-2">
+        <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg order-1 order-lg-2">
           <picture>
-              <source media="(max-width: 600px)"
-                srcset="../assets/img/simo-mobile-700px.jpg" />
-              <img class="rounded-3" src="../assets/img/simo-standard-650px.jpg"
-                srcset="../assets/img/simo-standard-650px.jpg 1x, ../assets/img/simo-retina-1300px.jpg 2x"
-                alt="Simone Camerano" fetchpriority="high" style="width: 100%; height: 100%; object-fit: cover; object-position: right;" />
-            </picture>
+            <source media="(max-width: 600px)" srcset="../assets/img/simo-mobile-700px.jpg" />
+            <img class="rounded-3" src="../assets/img/simo-standard-650px.jpg"
+              srcset="../assets/img/simo-standard-650px.jpg 1x, ../assets/img/simo-retina-1300px.jpg 2x"
+              alt="Simone Camerano" fetchpriority="high"
+              style="width: 100%; height: 100%; object-fit: cover; object-position: right;" />
+          </picture>
         </div>
       </div>
   </main>

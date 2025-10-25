@@ -1,9 +1,10 @@
-<!-- 
+<!--
   ==========================================
-  PORTFOLIO PERSONALE - Projects
+  PERSONAL PORTFOLIO - Projects
   ==========================================
-  Progetto Start2Impact
-  Tecnologie: HTML5, SCSS/Bootstrap 5, CSS-only interactions
+  Start2Impact Project
+  Technologies: HTML5, SCSS/Bootstrap 5, CSS-only interactions
+  This page shows the portfolio of completed projects.
 -->
 <!DOCTYPE html>
 <html lang="it">
@@ -17,13 +18,15 @@
   <meta property="og:description" content="Scopri i progetti di Simone Camerano, sviluppatore full stack." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://galdrial.github.io/pages-simonecamerano-dev/projects_page/" />
-  <meta property="og:image" content="https://galdrial.github.io/pages-simonecamerano-dev/assets/img/og-image-progetti-it.jpg" />
+  <meta property="og:image"
+    content="https://galdrial.github.io/pages-simonecamerano-dev/assets/img/og-image-progetti-it.jpg" />
   <title>Progetti | Simone Camerano</title>
   <link rel="alternate" href="https://galdrial.github.io/pages-simonecamerano-dev/projects_page/" hreflang="it" />
   <link rel="alternate" href="https://galdrial.github.io/pages-simonecamerano-dev/en/projects_page/" hreflang="en" />
-  <link rel="alternate" href="https://galdrial.github.io/pages-simonecamerano-dev/projects_page/" hreflang="x-default" />
+  <link rel="alternate" href="https://galdrial.github.io/pages-simonecamerano-dev/projects_page/"
+    hreflang="x-default" />
 
-  <!-- Stylesheet compilato (include Bootstrap customizzato + stili custom) -->
+  <!-- Main stylesheet: custom Bootstrap + custom styles -->
   <link rel="stylesheet" href="../assets/css/style.css">
 
   <!-- Google Fonts: Montserrat, Roboto, Google Sans Code -->
@@ -40,15 +43,16 @@
 
 <body>
   <div id="top"></div>
-  <!-- 
+  <!--
     ==========================================
     HEADER - Navigation (Sticky)
     ==========================================
+    Header section with navbar and logo
   -->
   <header class="sticky-top">
     <nav class="navbar navbar-expand-lg bg-light">
       <div class="container px-3">
-        <!-- Brand Logo -->
+  <!-- Brand Logo -->
         <a class="navbar-brand" href="../index.html">
           <span class="m-0" style="font-size:1.25rem; font-weight:700; line-height:1.2; display:inline-block;">
             <span class="text-primary fw-bold">SIMONE</span><span class="fw-bold">CAMERANO</span><span id="dev"
@@ -70,11 +74,11 @@
                 aria-label="Vai alla Home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link fw-medium fs-6" href="../about_page/" aria-label="Vai alla pagina Chi sono">Chi sono</a>
+              <a class="nav-link fw-medium fs-6" href="../about_page/" aria-label="Vai alla pagina Chi sono">Chi
+                sono</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link fw-medium fs-6 active" href="./"
-                aria-label="Vai alla pagina Progetti">Progetti</a>
+              <a class="nav-link fw-medium fs-6 active" href="./" aria-label="Vai alla pagina Progetti">Progetti</a>
             </li>
             <li class="nav-item">
               <a class="nav-link fw-medium fs-6" href="../cv_page/" aria-label="Vai alla pagina CV">CV</a>
@@ -121,12 +125,12 @@
         </div>
         <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
           <picture>
-              <source media="(max-width: 600px)"
-                srcset="../assets/img/my-project-mobile-700px.jpg" />
-              <img class="rounded-3" src="../assets/img/my-project-standard-650px.jpg"
-                srcset="../assets/img/my-project-retina-1300px.jpg 1x, ../assets/img/my-project-retina-1300px.jpg 2x"
-                alt="Codice HTML" fetchpriority="high" style="width: 100%; height: 100%; object-fit: cover; object-position: right;" />
-            </picture>
+            <source media="(max-width: 600px)" srcset="../assets/img/my-project-mobile-700px.jpg" />
+            <img class="rounded-3" src="../assets/img/my-project-standard-650px.jpg"
+              srcset="../assets/img/my-project-retina-1300px.jpg 1x, ../assets/img/my-project-retina-1300px.jpg 2x"
+              alt="Codice HTML" fetchpriority="high"
+              style="width: 100%; height: 100%; object-fit: cover; object-position: right;" />
+          </picture>
         </div>
       </div>
     </div>
@@ -150,9 +154,10 @@
               <div class="col-lg-4 col-12 d-flex justify-content-center p-3 p-lg-0">
                 <a href="https://galdrial.github.io/Progetto-Intro-Sviluppo-di-Simone-Camerano/" target="_blank"
                   rel="noopener noreferrer" aria-label="Apri l'immagine Hotel Pomelia in una nuova scheda">
-                  <img class="rounded-3 img-fluid rounded-3 shadow featured-img-margin" src="../assets/img/hotel-pomelia-standard-350px.jpg"
+                  <img class="rounded-3 img-fluid rounded-3 shadow featured-img-margin"
+                    src="../assets/img/hotel-pomelia-standard-350px.jpg"
                     srcset="../assets/img/hotel-pomelia-standard-350px.jpg 1x, ../assets/img/hotel-pomelia-retina-700px.jpg 2x"
-                    alt="Hotel Pomelia Project" width="350"/>
+                    alt="Hotel Pomelia Project" width="350" />
                 </a>
               </div>
             </div>
@@ -161,7 +166,8 @@
       </div>
     </div>
     <div class="scroll-top"> <!--right at the end of the body-->
-      <a class="scroll-top__link" href="#top"><i class="fa-solid fa-chevron-up"></i></a>
+      <a class="scroll-top__link" href="#top" aria-label="Torna all'inizio della pagina"><i
+          class="fa-solid fa-chevron-up"></i></a>
       <!--href="#" navigates to the top of the page-->
     </div>
   </main>
