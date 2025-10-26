@@ -2,6 +2,10 @@
 
 This repository contains the personal website of Simone Camerano, Full Stack Developer. The site is published via GitHub Pages and includes both Italian and English versions.
 
+## Demo
+
+https://galdrial.github.io/pages-simonecamerano-dev/
+
 ## Project Structure
 
 - `index.html` — Italian home page
